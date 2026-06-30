@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4OAwzW1MB7g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hosein\\RiderProjects\\Practice\\Practice\\Practice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hosein\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\Hosein\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
