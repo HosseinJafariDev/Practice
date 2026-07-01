@@ -1,3 +1,4 @@
+using Application.UseCase.Auth;
 using Application.UseCase.Auth.login;
 using Application.UseCase.Auth.register;
 using Application.UseCase.Products.CreateProduct;
@@ -18,6 +19,7 @@ public static class UseCaseRegistration
         services.AddScoped<IDeleteProductUseCase, DeleteProductUseCase>();
         services.AddScoped<IGetProductUseCase, GetProductUseCase>();
         services.AddScoped<IUpdateProductUseCase, UpdateProductUseCase>();
+        services.AddScoped<IValidGuidUseCase, ValidGuidUseCase>();
 
         return services;
     }
