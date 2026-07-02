@@ -3,11 +3,13 @@ using Application.UseCase.Products.DeleteProduct;
 using Application.UseCase.Products.GetProduct;
 using Application.UseCase.Products.UpdateProduct;
 using Microsoft.AspNetCore.Mvc;
+using Practice.Filter;
 
 namespace Practice.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[ServiceFilter(typeof(TokenValidationFilter))]
 public class ProductController(
     ICreateProductUseCase createProductUseCase,
     IDeleteProductUseCase deleteProductUseCase,
